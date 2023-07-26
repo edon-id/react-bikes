@@ -1,0 +1,170 @@
+body {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  background-color: #f3f3f3;
+}
+
+img {
+  display: inline-block;
+  width: 100%;
+}
+
+ul {
+  margin-bottom: 0;
+  padding-left: 0 !important;
+}
+
+li {
+  list-style: none;
+  cursor: pointer;
+}
+
+a {
+  text-decoration: none;
+}
+
+.logo-container {
+  width: 100px;
+}
+
+.bg-color {
+  background-color: #e7e7e7;
+}
+
+.navbar-brand {
+  margin-left: 25px;
+}
+
+.navbarIcons {
+  margin-right: 20px;
+}
+
+.navbar,
+.border-bottom {
+  border-bottom: 1px solid #e7e7e7;
+}
+
+.navLinks {
+  color: black;
+  text-decoration: none;
+}
+
+.navLinks:hover {
+  color: rgb(238, 177, 63);
+}
+
+.navbarLinkIcons {
+  color: black;
+}
+.navbarLinkIcons:hover {
+  color: rgb(238, 177, 63);
+}
+
+.container-fluid {
+  background-color: #fff;
+}
+
+.badges {
+  background-color: #d3d3d3;
+}
+
+.active {
+  font-weight: bold;
+  color: rgb(238, 177, 63);
+}
+
+.active-bg {
+  background-color: rgb(238, 177, 63);
+}
+
+.active-hover {
+  color: rgb(238, 177, 63);
+}
+
+.links:hover .link-text {
+  color: rgb(238, 177, 63);
+  font-weight: bold;
+}
+
+.links:hover .badges {
+  background-color: rgb(238, 177, 63);
+}
+
+.active-bg-hover {
+  background-color: rgb(238, 177, 63);
+}
+
+.image-size {
+  padding: 20px;
+  width: 100%;
+  height: 270px;
+}
+
+.image {
+  max-width: 100%;
+  display: block;
+}
+
+.card:hover .image {
+  transform: scale(1.05);
+}
+
+.card:hover {
+  border-color: rgb(238, 177, 63);
+  cursor: pointer;
+}
+
+.card:hover .card-body {
+  text-decoration: underline;
+}
+
+.bg-grey {
+  background-color: #f3f3f3;
+}
+
+ul.social-share li a {
+  background-color: rgb(238, 177, 63);
+  color: #fff;
+  padding: 10px;
+}
+
+ul.social-share li a:hover {
+  color: rgb(238, 177, 63);
+  background-color: transparent;
+  border: 1px solid rgb(238, 177, 63);
+}
+
+ul.social-share li {
+  display: inline-block;
+  text-decoration: none;
+  text-align: left;
+}
+
+ul.social-share li:not(:last-child) {
+  margin-right: 10px;
+}
+
+.footerEvents li a,
+.registration li a,
+.schedule li a {
+  color: black;
+  text-decoration: none;
+}
+
+.footerEvents li:not(:last-child),
+.registration li:not(:last-child),
+.schedule li:not(:last-child) {
+  margin-bottom: 10px;
+}
+
+.border-left {
+  border-left: 1px solid #e7e7e7;
+}
+
+.footerEvents li:hover a,
+.registration li:hover a,
+.schedule li:hover a {
+  color: rgb(238, 177, 63);
+  text-decoration: none;
+}
